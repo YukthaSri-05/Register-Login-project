@@ -1,0 +1,46 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #667eea, #764ba2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: white;
+    padding: 30px;
+    width: 300px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background: #667eea;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #5a67d8;
+}
+
+a {
+    color: #667eea;
+    text-decoration: none;
+}
+
+.error {
+    color: red;
+}
